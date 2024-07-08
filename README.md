@@ -29,7 +29,7 @@ always @ (posedge clk or negedge resetn) begin
 end
 endmodule 
   ```
-Assign Clock, Reset and LED pins.
+Compilation and Assign Clock, Reset and LED pins. By now, all the above steps are standard Altera Cyclone-4 development flow.
 
 ## 2, Create / User a Supra project:
   You will see `af_quartus.tcl` file included in the project.
