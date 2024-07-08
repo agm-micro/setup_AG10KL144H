@@ -35,7 +35,7 @@ Compilation and Assign Clock, Reset and LED pins. By now, all the above steps ar
   You will see `af_quartus.tcl` file included in the project.
   
 ## 3, Add tcl script to Quartus project:
-  Quartus, Tools -> run Tcl Scripts, Add to porjects, load the `af_quartus.tcl` and run.
+  Quartus, Tools -> run Tcl Scripts, Add to Projects, load the `af_quartus.tcl` and run.
   Compilation the project
 
 ## 4, Migrate Quartus project on Supra:
