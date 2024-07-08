@@ -22,7 +22,8 @@ end
 always @ (posedge clk or negedge resetn) begin
   if (!resetn) begin
     LED <= 4'b0011;
-  end begin
+  end
+  else begin
     LED <= 4'b1100;
   end
 end
