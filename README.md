@@ -31,10 +31,11 @@ endmodule
   ```
 Do compilation and assign clock, reset and LED pins. By now, all the above steps are just standard Altera Cyclone-4 development flow.
 
-## 2, Create a Supra project:
-  Open Supra, File -> New project
+## 3, Create a Supra project:
+  Open Supra, File -> New project.
+  It will be a different folder than your Quartus project.
   
-## 2, Migrate to Supra project from Quartus project:
+## 4, Migrate to Supra project from Quartus project:
   Open Supra, Tools -> Migrate,
   Select device `AG10KL144H`, click `Next`,
   On this step, `af-quartus.tcl` is now generated on your Supra project.
@@ -43,12 +44,12 @@ Do compilation and assign clock, reset and LED pins. By now, all the above steps
   Quartus, Tools -> run Tcl Scripts, Add to Projects, load the `af_quartus.tcl` and run.
   Do compilation.
 
-## 4, Convert project on Supra:
+## 5, Convert project on Supra:
   Now go back to Supra's page shown in the image, click `Next` then `Finish`, 
   Supra will generate `prg` files:
   `xx_sram.prj` is for Blaster to load to RAM, `xx_master.prj` is for Blaster to load to flash.
 
-## Synchronize new changes from Quartus to Supra.
+## 6, Synchronize new changes from Quartus to Supra.
   Everytime your Quartus project has been modified and finished the compilation sucessfully, use Supra -> Tools -> Compile.
   Click `Run`, it will synchronize the Quartus program to AGM `prj` firmware automatically.
   
