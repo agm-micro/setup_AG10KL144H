@@ -39,7 +39,9 @@ Do compilation and assign clock, reset and LED pins. By now, all the above steps
   Open Supra, Tools -> Migrate,
   Select device `AG10KL144H`, click `Next`,
   On this step, `af-quartus.tcl` is now generated on your Supra project.
+  
   ![image](https://github.com/user-attachments/assets/88d2d9c7-07bb-4366-a093-3a3ac9f14b69)
+  
   Leave this step here, jump to Quartus and open the Quartus prject your created on `step1`.
   Quartus, Tools -> run Tcl Scripts, Add to Projects, load the `af_quartus.tcl` and run.
   Do compilation.
